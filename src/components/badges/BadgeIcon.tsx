@@ -22,7 +22,7 @@ const BadgeIcon = ({ badge, size = "md" }: BadgeIconProps) => {
           "rounded-full flex items-center justify-center relative",
           sizeClasses[size],
           badge.achieved
-            ? "bg-gradient-to-br from-vibe-purple to-vibe-pink text-white"
+            ? "bg-gradient-to-br from-dare-primary to-vibe-pink text-white"
             : "bg-gray-100 text-gray-400"
         )}
       >
@@ -51,3 +51,4 @@ const BadgeIcon = ({ badge, size = "md" }: BadgeIconProps) => {
 };
 
 export default BadgeIcon;
+

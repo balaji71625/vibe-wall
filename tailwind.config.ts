@@ -64,14 +64,21 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				vibe: {
-					purple: '#8B5CF6',
+					purple: '#9b87f5',
 					pink: '#D946EF',
 					light: '#E5DEFF',
+					dark: '#1A1F2C',
+				},
+				dare: {
+					primary: '#9b87f5',
+					secondary: '#7E69AB',
+					tertiary: '#6E59A5',
 					dark: '#1A1F2C',
 				}
 			},
 			fontFamily: {
 				poppins: ['Poppins', 'sans-serif'],
+				circular: ['Circular', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -106,3 +113,4 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+

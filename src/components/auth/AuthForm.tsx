@@ -9,9 +9,9 @@ const AuthForm = () => {
   const [activeTab, setActiveTab] = useState<string>("signin");
 
   return (
-    <Card className="w-full max-w-md border-2 border-vibe-purple/20">
+    <Card className="w-full max-w-md border-2 border-white/10 auth-card-glass">
       <CardHeader className="space-y-2 text-center">
-        <CardTitle className="text-3xl font-bold bg-gradient-to-r from-vibe-purple to-vibe-pink bg-clip-text text-transparent">
+        <CardTitle className="text-3xl font-bold bg-gradient-to-r from-dare-primary to-vibe-pink bg-clip-text text-transparent">
           Vibe Wall
         </CardTitle>
         <CardDescription className="text-muted-foreground">
@@ -37,3 +37,4 @@ const AuthForm = () => {
 };
 
 export default AuthForm;
+
