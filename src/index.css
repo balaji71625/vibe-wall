@@ -105,6 +105,19 @@
   .animation-delay-4000 {
     animation-delay: 4s;
   }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-dare-primary to-vibe-pink bg-clip-text text-transparent;
+  }
+  
+  .font-stylized {
+    letter-spacing: 0.02em;
+    font-weight: 500;
+  }
+  
+  .settings-card {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-lg p-5;
+  }
 }
 
 /* Custom animations */
@@ -131,5 +144,15 @@
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Enhanced Typography */
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.025em;
+  font-family: 'Circular', sans-serif;
+}
+
+.settings-heading {
+  @apply text-2xl font-bold mb-4 text-gradient;
 }
 
